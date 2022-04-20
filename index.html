@@ -8,56 +8,67 @@
     <title>Generic landing page</title>
   </head>
   <body>
-    <header class="header container">
-      <nav class="nav">
-        <a class="nav__left" href="#">Header logo</a>
-        <ul class="nav__right">
-          <li><a href="#">Nav link 1</a></li>
-          <li><a href="#">Nav Link 2</a></li>
-          <li><a href="#">Nav Link 3</a></li>
-        </ul>
-      </nav>
+    <header class="header">
+      <div class="header__container">
+        <nav class="nav">
+          <a class="nav__left" href="#">Header logo</a>
+          <ul class="nav__right">
+            <li><a href="#">Nav link 1</a></li>
+            <li><a href="#">Nav Link 2</a></li>
+            <li><a href="#">Nav Link 3</a></li>
+          </ul>
+        </nav>
+        <section class="hero">
+          <article class="hero__text">
+            <h1 class="hero__title">This website is awesome!</h1>
+            <p class="hero__p">
+              This website has some subtext that goes here under the main title.
+              It's smaller font and the color is lower contrast.
+            </p>
+            <a href="#" class="hero__btn">Sign up</a>
+          </article>
+          <figure class="hero__img">
+            <img
+              class="img"
+              src="https://unsplash.it/640/500?random"
+              alt="hero image"
+            />
+            <figcaption class="img__caption">
+              This is a placeholder for an image.
+            </figcaption>
+          </figure>
+        </section>
+      </div>
     </header>
-    <main class="main container">
-      <section class="hero">
-        <article class="hero__text">
-          <h1 class="hero__title">This website is awesome!</h1>
-          <p class="hero__p">
-            This website has some subtext that goes here under the main title.
-            It's smaller font and the color is lower contrast.
-          </p>
-          <a href="#" class="hero__btn">Sign up</a>
-        </article>
-        <figure class="hero__img">
-          <img src="#" alt="hero image" />
-          <figcaption>This is a placeholder for an image.</figcaption>
-        </figure>
-      </section>
-      <section class="info">
-        <figure>
-          <img src="#" alt="info image" />
-          <figcaption>
-            This is some subtext under an illustration or image
-          </figcaption>
-        </figure>
-        <figure>
-          <img src="#" alt="info image" />
-          <figcaption>
-            This is some subtext under an illustration or image
-          </figcaption>
-        </figure>
-        <figure>
-          <img src="#" alt="info image" />
-          <figcaption>
-            This is some subtext under an illustration or image
-          </figcaption>
-        </figure>
-        <figure>
-          <img src="#" alt="info image" />
-          <figcaption>
-            This is some subtext under an illustration or image
-          </figcaption>
-        </figure>
+    <main class="main">
+      <section class="info container">
+        <h2 class="info__text">Some random information.</h2>
+        <div class="info__imgs">
+          <figure>
+            <img src="#" alt="info image" />
+            <figcaption>
+              This is some subtext under an illustration or image
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="#" alt="info image" />
+            <figcaption>
+              This is some subtext under an illustration or image
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="#" alt="info image" />
+            <figcaption>
+              This is some subtext under an illustration or image
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="#" alt="info image" />
+            <figcaption>
+              This is some subtext under an illustration or image
+            </figcaption>
+          </figure>
+        </div>
       </section>
       <section class="quote">
         <figure>
